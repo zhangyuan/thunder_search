@@ -1,0 +1,21 @@
+.page-header
+  h1 Search
+
+.main-section
+  = form_tag search_posts_path, class: 'form-inline', role: 'form', method: 'get' do 
+    div.form-group
+      = text_field_tag :query, params[:query], class: 'form-control'
+    '
+    div.form-group
+      = submit_tag "Search", class: 'btn btn-default'
+hr
+
+- if @posts
+  p
+    = "共搜索到 #{@posts.total_count} 个页面, 当前显示第 #{current_page} 页。"
+  .main-section.search_entries
+    - @posts.each_with_index do |post|
+      .entry
+        = link_to post.title, post.url, target: "_blank"
+  .main-section
+    = paginate @posts

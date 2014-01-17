@@ -1,0 +1,19 @@
+secret_token: ''
+
+post_url_prefix: 'http://example.com'
+
+crawler_url_prefix: 'http://example.com'
+wiki_url: "http://example.com/wiki"
+
+auth:
+  username: ''
+  password: ''
+
+sign_in:
+  username: ''
+  password: ''
+
+elasticsearch:
+  url: 'localhost:9200'
+  log: true
+  index: 'thunder'

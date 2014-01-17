@@ -1,0 +1,13 @@
+@import "bootstrap";
+@import "bootstrap/theme";
+
+body {
+  position: relative;
+  padding-top: 50px;
+}
+
+.main-section.search_entries {
+  .entry {
+    margin-top: 10px;
+  }
+}

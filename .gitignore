@@ -1,0 +1,40 @@
+*.rbc
+*.sassc
+.sass-cache
+capybara-*.html
+.rspec
+/log
+/tmp
+/db/*.sqlite3
+/public/system
+/coverage/
+/spec/tmp
+**.orig
+rerun.txt
+pickle-email-*.html
+config/secrets.yml
+
+## Environment normalisation:
+/.bundle
+/vendor/bundle
+
+# these should all be checked in to normalise the environment:
+# Gemfile.lock, .ruby-version, .ruby-gemset
+
+*.swo
+*.swp
+
+db/schema.rb
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
+
+public/uploads/
+
+config/database.yml
+public/assets
+config/unicorn.rb
+config/nginx.conf
+config/unicorn_init
+/tags

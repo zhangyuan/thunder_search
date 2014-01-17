@@ -1,0 +1,14 @@
+secret_token: ''
+
+post_url_prefix: 'http://example.com'
+
+auth:
+  username: ''
+  password: ''
+sign_in:
+  username: ''
+  password: ''
+elasticsearch:
+  url: ''
+  log: false
+  index: 'thunder'
